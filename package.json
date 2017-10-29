@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-github-scrum/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "coffee-script": "~1.6",
     "hubot-gh-token": "0.0.1",
