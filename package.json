@@ -1,0 +1,42 @@
+{
+  "name": "hubot-github-scrum",
+  "description": "Manage Scrum sprints on github",
+  "version": "0.0.0",
+  "author": "Sergii Kabashniuk <skabashniuk@redhat.com>",
+  "license": "MIT",
+  "keywords": "hubot, github, sprint, scrum",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-github-scrum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-github-scrum/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "hubot-gh-token": "0.0.1",
+    "octonode": "^0.7.6"
+  },
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "coffee-script": "1.6.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-release": "~0.11.0",
+    "hubot": "2.x",
+    "hubot-test-helper": "^1.8.1",
+    "matchdep": "~0.3.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
